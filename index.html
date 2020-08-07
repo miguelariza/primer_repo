@@ -11,12 +11,24 @@
           max-width: 100%;
           vertical-align: top;
         }
+
+        /* Responsive image */
+        img#responsive {
+          display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+          img#responsive {
+            display: block;
+          }
+        }
     </style>
   </head>
   <body>
     <img src="navbar.png" alt="Header de invie">
     <img src="header.png" alt="hero banner">
     <img src="content.png" alt="">
+    <img src="davidcohen-ewxTqdfrYOU-unsplash.jpg" alt="" id="responsive">
     <!-- <img src="footer.png" alt="pie de pagina"> -->
     <!-- Una nueva linea de texto -->
   </body>
